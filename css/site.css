@@ -3,3 +3,26 @@ html {
 
 
 }
+
+body {
+  background-color: rgb(85, 85, 85)
+
+}
+
+ #link_purple{
+  color: purple;
+
+}
+
+#link_orange{
+ color: orange;
+
+}
+#lab_5{
+  color: yellow;
+
+
+}
+a {
+  color: brown;
+}
