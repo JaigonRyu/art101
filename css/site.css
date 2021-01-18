@@ -4,25 +4,31 @@ html {
 
 }
 
-body {
+#main_page {
   background-color: rgb(85, 85, 85)
-
 }
 
- #link_purple{
-  color: purple;
-
-}
-
-#link_orange{
- color: orange;
-
-}
-#lab_5{
-  color: yellow;
-
-
-}
-a {
-  color: brown;
-}
+.ol_li_class{
+  color:pink;
+  }
+.ol_li_class a{
+  color:green;
+  }
+.ul_li_class{
+    color:purple;
+  }
+.ul_li_class a{
+    color:red;
+  }
+#li_lab_4{
+    color:orange;
+  }
+#a_lab_4{
+    color:purple;
+  }
+#ul_li_5>a{
+    color:yellow;
+  }
+#ul_li_5{
+    color:yellow;
+  }
