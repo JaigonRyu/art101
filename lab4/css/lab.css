@@ -1,0 +1,42 @@
+h1{
+  font-family: arial;
+  text-align: center;
+  border: 3px inset black;
+  background-color: white;
+  border-spacing: 15px;
+}
+
+#task_1_lab4{
+  background-color: white;
+  border: 3px inset black;
+
+  border-spacing: 15px;
+}
+#task_2_lab4{
+  background-color: white;
+  border: 3px inset black;
+
+  border-spacing: 15px;
+}
+#task_3_lab4{
+  background-color: white;
+  border:3px inset black;
+  border-spacing: 15px;
+
+}
+p{
+  font-family: arial;
+  font-size: 30px;
+
+
+}
+pre{
+  font-family: arial;
+  font-size: 20px;
+
+
+}
+body{
+  background: DarkSeaGreen;
+  background-size: auto;
+}

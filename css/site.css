@@ -1,34 +1,70 @@
-html {
-  font-size: 26px
 
 
+*{
+  margin: 0;
+  padding: 0;
 }
 
-#main_page {
-  background-color: rgb(85, 85, 85)
+body {
+
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  
 }
 
-.ol_li_class{
-  color:pink;
-  }
-.ol_li_class a{
-  color:green;
-  }
-.ul_li_class{
-    color:purple;
-  }
-.ul_li_class a{
-    color:red;
-  }
-#li_lab_4{
-    color:orange;
-  }
-#a_lab_4{
-    color:purple;
-  }
-#ul_li_5>a{
-    color:yellow;
-  }
-#ul_li_5{
-    color:yellow;
-  }
+
+nav{
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+
+nav p{
+  font-family: Garamond;
+  color: white;
+  font-size: 26px;
+  line-height: 55px;
+  float: left;
+  padding: 0px 20px;
+}
+
+nav ul{
+  float: left;
+}
+
+nav ul li{
+  float: left;
+  list-style: none;
+  position: relative;
+
+}
+nav ul li a{
+  display: block;
+  font-family: Garamond;
+  color: white;
+  font-size: 22px;
+  padding: 15.5px 62px;
+  text-decoration: none;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: black;
+  padding: 10px;
+  border-radius: 0px 0px 4px 4px;
+
+}
+nav ul li:hover ul{
+  display: block;
+
+}
+nav ul li ul li  {
+  width: 180px;
+  border-radius: 4px;
+
+}
+nav ul li ul li a:hover {
+  background-color: grey;
+
+}

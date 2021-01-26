@@ -1,0 +1,22 @@
+
+
+div{
+  border: 2px solid black;
+  width: 550px;
+  height: 450px;
+  padding: 40px;
+  font-family: arial;
+  text-align: center;
+  background-color: white;
+  border-radius: 30px
+
+}
+
+h1{
+ color: black;
+}
+
+body{
+  background-image: url("../img/orange.jpg");
+  background-size: cover;
+}
