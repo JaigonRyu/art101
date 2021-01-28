@@ -1,0 +1,61 @@
+body {
+  background-image: url("../img/classy_background.jpg");
+  background-size: cover;
+  background-color: #cccccc;
+
+}
+
+h1{
+  font-family: arial;
+  text-align: center;
+  color: black
+
+
+}
+
+
+
+h2{
+  font-family: arial;
+  text-align: center;
+  font-size: 30px;
+  color: black
+}
+p{
+  font-family: arial;
+  text-align: center;
+  font-size: 30px;
+  color: black
+}
+h3{
+  font-family: arial;
+  text-align: left;
+  font-size: 30px;
+  color: black
+
+}
+
+div{
+  font-family: arial;
+  text-align: left;
+  font-size: 30px;
+  color: black;
+  
+
+}
+
+hr{
+  border: 5px solid black;
+  padding: 1px;
+
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black;
+  border-radius: 50px;
+  width: 25%;
+
+}
