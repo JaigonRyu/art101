@@ -9,7 +9,7 @@ body {
 
   background-image: url("../img/background.jpg");
   background-size: cover;
-  
+
 }
 
 
@@ -43,7 +43,7 @@ nav ul li a{
   font-family: Garamond;
   color: white;
   font-size: 22px;
-  padding: 15.5px 62px;
+  padding: 14px 40px; //Change this for the labs
   text-decoration: none;
 }
 
