@@ -6,7 +6,7 @@
 
 //Begin function for sorting names
 function sortName(nameChoice) {
-    alert(nameChoice);
+    //alert(nameChoice);
     //Turn the name into an array using split
     var nameArray = nameChoice.split('');
     console.log("nameArray=", nameArray);
