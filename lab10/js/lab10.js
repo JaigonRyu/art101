@@ -1,21 +1,22 @@
 //Author: Jacob Hanshaw
-//Date: 2/11/2021
+//Date: 2/15/2021
 //Lab10 sor or scramble a name
 
 
-//find element
-var buttonEl = document.getElementById("submit-button");
+// find button element
+buttonEl = document.getElementById("submit-button");
 
-//add event listener to button
+// add event listener to buttonEl
 buttonEl.addEventListener("click", function(){
-  //var nameChoice = window.prompt("please enter your name:");
-  //console.log(nameChoice)
-  nameEl = document.getElementById("name");
+  // find user-name element
+  nameEl = document.getElementById("user-name");
+  // get value from user-name element
   var userName = nameEl.value;
+  // modify the name
   userName = userName.toLowerCase().split('').sort().reverse().join('');
-
-
-  titleEl = document.getElementById("title");
-
-  titleEl.innerText = userName;
-});
+  console.log("user name: ", userName)
+  // find the output element
+  outputEl = document.getElementById("output");
+  // change that element
+  outputEl.innerText =userName;
+  })

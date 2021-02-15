@@ -1,0 +1,27 @@
+body{
+  background-image: url("../img/lab10_background.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+img{
+  width: 25%;
+  padding-bottom: 20px;
+}
+
+#Lab10_Mainpage{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 25px;
+
+
+}
+
+
+#output{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
