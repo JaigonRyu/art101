@@ -19,4 +19,4 @@ buttonEl.addEventListener("click", function(){
   outputEl = document.getElementById("output");
   // change that element
   outputEl.innerText =userName;
-  })
+});

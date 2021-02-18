@@ -1,0 +1,32 @@
+
+body{
+  background-image: url("../img/lab_11.jpg");
+
+}
+
+h1{
+  font-family: cursive;
+  font-size: 40px;
+}
+
+h2{
+  font-family: cursive;
+  font-size: 30px;
+
+}
+
+p{
+  font-family: cursive;
+  font-size: 20px;
+
+}
+
+.special{
+ font-family: monospace;
+ font-style:italic;
+ text-align: left;
+ font-size: 25px;
+ color: DarkSlateGray;
+}
+
+b
