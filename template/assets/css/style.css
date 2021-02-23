@@ -9,3 +9,11 @@
 .media:hover{
   border: transparent;
 }
+
+.color_me{
+  color: green;
+}
+
+.info{
+  font-size: 2em;
+}

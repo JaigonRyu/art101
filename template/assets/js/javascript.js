@@ -17,10 +17,17 @@ function submitBio(){
 
 
 };
-document.getElementById("submit_bio_id").addEventListener("click", submitBio);
-
-buttonEl = document.getElementById("color_button");
-buttonEl.addEventListener("click", function(){
-    document.getElementById("bio_id").style.color = "red";
-    document.getElementById("name_email_id").style.color = "red";
-});
+// document.getElementById("submit_bio_id").addEventListener("click", submitBio);
+//
+// buttonEl = document.getElementById("color_button");
+// buttonEl.addEventListener("click", function(){
+//     document.getElementById("bio_id").classList.add("color_me");
+//     document.getElementById("name_email_id").classList.add("color_me");
+//
+// });
+$("#submit_bio_id").click(submitBio);
+function color_me(){
+  $("#bio_id").toggleClass("color_me");
+  $("#name_email_id").toggleClass("color_me");
+};
+$("#color_button").click(color_me);

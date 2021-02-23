@@ -1,0 +1,92 @@
+
+body{
+  background-color: MediumSlateBlue
+  
+}
+
+
+img{
+  width:35%;
+  float: right;
+  margin-right: 125px;
+}
+
+#crest{
+  margin-bottom: 100px;
+}
+
+h1 {
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  background-color: DarkSlateBlue;
+}
+
+#challenge{
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-right: 900px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: DarkSlateBlue;
+}
+
+#problems{
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-right: 900px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: DarkSlateBlue;
+}
+
+#results{
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-right: 900px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: DarkSlateBlue;
+}
+
+
+
+
+.input-output{
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin-right: 900px;
+  margin-bottom: 100px;
+  background-color: DarkSlateBlue;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#submit-button{
+  background-color: grey;
+}
