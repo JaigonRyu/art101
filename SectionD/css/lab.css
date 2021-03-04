@@ -13,3 +13,12 @@
   border: solid 3px black;
   float:left;
 }
+
+#input_text{
+  border: solid 10px grey;
+}
+
+#ajax_text{
+  font-size: 60px;
+  font-family: cursive;
+}

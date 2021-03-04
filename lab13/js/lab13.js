@@ -11,11 +11,12 @@
 //If the number is a multiple of 7, it should print "Boom!"
 //If the number is a multiple of more than one 3, 5 or 7, it should combine Fizz, Buzz, and Boom. For example, if the number is a multiple of 3 AND 5, it should print "FizzBuzz!" and so on.
 
+//create function
 function fizzBuzzBoom(){
   for (var num=1; num <= 200; num++) {
-
+    //start for loop and create our string
     str = num + " - " + "";
-
+    //make all the conditions for our loo[]
     if (num % 3 == 0){
     str += "Fizz";
     }
@@ -36,10 +37,11 @@ function fizzBuzzBoom(){
     else{
       str += ""
     }
+    //append our function to output
     $("#output").append("<p>" + str + "</p>");
 
 }};
-
+//connect everything to a button
 $("#submit-button").click(function(){
   $("#output").append(fizzBuzzBoom());
 });
