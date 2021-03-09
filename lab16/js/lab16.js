@@ -6,7 +6,7 @@
 function getajaxdata(){
 
 $.ajax({
-  url:"http://xkcd.com/info.0.json ",
+  url:"https://xkcd.com/info.0.json ",
   type:"GET",
   datatype:"json",
   success: successFun,
