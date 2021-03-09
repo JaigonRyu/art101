@@ -1,9 +1,9 @@
 function getajaxdata(){
 
 $.ajax({
-  url:"data/data.xml",
+  url:"https://dog.ceo/api/breeds/image/random",
   type:"GET",
-  datatype:"xml",
+  datatype:"json",
   success: successFun,
   error: errorFun,
   complete: function(xhr,status){
@@ -14,7 +14,9 @@ $.ajax({
 
 function successFun(result){
   console.log(result);
-  $("#ajax_text").html(result.);
+  var img = document.createElement('img');
+  img.src = result.message;
+  $("#ajax_text").append(img);
 }
 
 function errorFun(xhr,status,strErr){
